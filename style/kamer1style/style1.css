@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+    text-align: center;
+}
+
+body,html {
+    overflow: hidden;
+}
+
+.room1 {
+    min-height: 100%;
+    background-image: url("../backgrounds/kamer1-background.png");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    z-index: 0;
+}
+
+.btn-to2 {
+    position: absolute;
+    top: 37%;
+    width: 22.5%;
+    height: 63%;
+    left: 38.7%;
+    opacity: 0%;
+}
+
+.btn-to2:hover {
+    background-image: url("backgrounds/kamer1-background-select.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.note {
+    position: absolute;
+    top: 32.4%;
+    left: 65%;
+    width: 132px;
+    height: 120px;
+    opacity: 0%;
+}
+
+.post-it {
+    position: absolute;
+    top: 16%;
+    left: 57%;
+    width: 500px;
+    height: 500px;
+}
+
+.note:hover {
+    cursor: pointer;
+}
+

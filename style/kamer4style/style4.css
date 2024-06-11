@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+    text-align: center;
+
+}
+
+body{
+    background-image: url(/style/backgrounds/kamer-4-achtergrond.png);
+    background-size: cover;
+    position: fixed;
+}
+
+
+.goToWin {
+width: 470px;
+position: relative;
+top: 100px;
+left: 720px;
+height: 720px;
+opacity: 0%;
+}
+
+.goToWin:hover {
+    cursor: pointer;
+}
