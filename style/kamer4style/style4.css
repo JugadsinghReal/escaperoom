@@ -8,7 +8,7 @@
 }
 
 body{
-    background-image: url(/style/backgrounds/kamer-4-achtergrond.png);
+    background-image: url(../backgrounds/kamer-4-achtergrond.png);
     background-size: cover;
     position: fixed;
 }
